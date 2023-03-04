@@ -13,25 +13,44 @@
 			margin: 0%;
 		}
 		.first{
-			background-color: rgba(0,0,0,0.8);
+			background-color: rgba(0,0,0,0.9);
 			padding: 1%;
+			font-family: 'Golos Text';
 			position: sticky;
 			top: 0%;
-       }
-
-       .first>a{
+		}
+		a{
 			color: white;
-			margin-right: 2.5%;
 			text-decoration: none;
-			font-family: 'Golos Text';
-		}	
-		
+			margin-right: 2.5%;
+		}
+		a:hover{
+			padding: 1%;
+			background-color: black;
+		}
+		.strap{
+			margin-right: 27%;
+		}
+		@media(min-width: 576px){
+			
+		.first{
+				background-color: blue;
+			}
+		}
+		@media(max-width: 992px){
+			
+				a{
+					margin-right: 0.5%;
+				}
+				.strap{
+					margin-right: 0.5%;
+				}
+   	}
 	</style>
 </head>
 <body>
-	
-  <nav class="first">
-     <a href="#"><i class="fa-sharp fa-solid fa-house-chimney"></i></i></a>
+	<nav class="first">
+  	  <a href="#"><i class="fa-sharp fa-solid fa-house-chimney"></i></i></a>
      <a href="#">HTML</a>
      <a href="#">CSS</a>
      <a href="#">JAVASCRIPT</a>
@@ -39,14 +58,23 @@
      <a href="#">PYTHON</a>
      <a href="#">JAVA</a>
      <a href="#">PHP</a>
-     <a href="#">BOOTSTRAP</a>
-     <a href="#"><i class="fa-sharp fa-solid fa-circle-half-stroke"></i></a>
+     <a class="strap" href="#">BOOTSTRAP</a>
+  	  <a href="#"><i class="fa-sharp fa-solid fa-circle-half-stroke"></i></a>
      <a href="#"><i class="fa-sharp fa-solid fa-earth-asia"></i></a>
-     <a href="#"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></a> 
-   </nav>
+     <a href="#"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></a>
+  </nav>
+  </body>
+</html>
       
-</body>
-</html>  
+
+    
+   
+  
+    
+     
+     
+  	 
+     
 		
 		
 	
